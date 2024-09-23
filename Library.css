@@ -70,22 +70,6 @@ nav ul {
     margin-right: auto;
 }
 
-nav ul li ul.dropdown li{
-    display: block;
-}
-
-nav ul li ul.dropdown{
-    width: 100%;
-    background: #fefff8;
-    position: absolute;
-    z-index: 999;
-    display: none;
-}
-
-nav ul li:hover ul.dropdown{
-    display: block;
-}
-
 nav ul li a{
     display: block;
     text-decoration: none;
@@ -109,10 +93,6 @@ nav ul li a:hover::after{
 
 nav ul li a:hover{
     color: #9aa47e;
-}
-
-nav ul li a.DpDn:hover{
-    background-color: #d1d8be;
 }
 
 /*--Login/Signup page--*/
@@ -199,5 +179,12 @@ nav ul li a.DpDn:hover{
     text-align: center;
     padding: 15px 0px;
     margin-bottom: 10px;
-    color: red;
+}
+
+/*Home*/
+.card-body{
+    padding: 5%;
+}
+.table {
+    width: 100%;
 }

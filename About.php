@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>About Us</title>
 <link rel="stylesheet" href="Library.css">
 <style>
@@ -49,19 +50,14 @@
                 <li><a href="Home.php">Home</a></li>
                 <li><a href="About.php">About Us</a></li>
                 <li>
-                <form>
+                <form action="home.php" method="GET">
                     <div class="search">
                         <span class="search-icon material-symbols-outlined">search</span>
-                        <input class="search-input" type="search" placeholder="Search">
-                    </div>
+                        <input type="text" name="search" required value="<?php if(isset($_GET['search'])){echo $_GET['search']; } ?>" class="search-input" placeholder="Search">
                 </form>
                 </li>
                 <li><a href="Contacts.php">Contacts</a></li>
-                <li>Your Account <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#353e26"><path d="M480-360 280-560h400L480-360Z"/></svg>
-                    <ul class="dropdown">
-                        <li><a class="DpDn" href="Welcome.html">Log Out</a></li>
-                    </ul>
-                </li>
+                <li><a href="Welcome.html">Log Out</a></li>
               </ul>
         </nav>
     </div>

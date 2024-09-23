@@ -120,14 +120,14 @@ nav ul li a.DpDn:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 
 .box{
     background: #fefff8;
     display: flex;
     flex-direction: column;
-    padding: 25px 25px;
+    padding: 2% 2%;
     border-radius: 20px;
     box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1),
                 0 32px 64px -48px rgba(0, 0, 0, 0.5);
@@ -138,8 +138,18 @@ nav ul li a.DpDn:hover{
     color: #32463a;
     font-weight: bold;
 }
+.form-box .back{
+    margin-left: -10px;
+}
+.form-box .back a{
+    font-size: 18x; 
+}
+.form-box .back a svg{
+    position: relative;
+    top: 6px;
+}
 .form-box header{
-    font-size: 25px;
+    font-size: 5vh;
     padding-bottom: 10px;
     margin-bottom: 10px;
 }
@@ -182,6 +192,6 @@ nav ul li a.DpDn:hover{
 .submit{
     width: 100%;
 }
-.link{
-    margin-bottom: 15px;
+.links{
+    text-align: center;
 }

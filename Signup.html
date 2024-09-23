@@ -19,47 +19,31 @@ body{
 </style>
 </head>
 <body>
-    <div class="header"> 
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About Us</a></li>
-                <li>
-                <form>
-                    <div class="search">
-                        <span class="search-icon material-symbols-outlined">search</span>
-                        <input class="search-input" type="search" placeholder="Search">
-                    </div>
-                </form>
-                </li>
-                <li><a href="Contacts.html">Contacts</a></li>
-                <li>Your Account <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#353e26"><path d="M480-360 280-560h400L480-360Z"/></svg>
-                    <ul class="dropdown">
-                        <li><a class="DpDn" href="Login.html">Log In</a></li>
-                        <li><a class="DpDn" href="Signup.html">Sign Up</a></li>
-                    </ul>
-                </li>
-              </ul>
-        </nav>
-    </div>
-
     <div class="container">
         <div class="box form-box">
+            <text class="back"><a href="Welcome.html"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>Back </a></text>
+            <br>
+            <br>
             <header>Sign Up</header>
             <p>Welcome, Lasallians! Create your account and Sign up here.</p>
+            <br>
+            <br>
             <form action="" method="post">
                 <div class="field input">
                     <label for="username">Username</label>
-                    <input type="text" name="username" id="username" required>
+                    <input type="text" name="username" id="username" autocomplete="off" required>
                 </div>
+                <br>
                 <div class="field input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
+                    <input type="password" name="password" id="password" autocomplete="off" required>
                 </div>
+                <br>
                 <div class="field">
                 
                     <input type="submit" class="btn" name="submit" value="Sign Up" required>
                 </div>
+                <br>
                 <div class="links">
                     Already have an account? <a href="Login.html">Login</a> here.
                 </div>

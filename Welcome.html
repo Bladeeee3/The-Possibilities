@@ -11,41 +11,41 @@
     <title>Home</title>
 <link rel="stylesheet" href="Library.css">
 <style>
-.space{
-    padding: 10px 80px;
-}
-
 body{
     background-image: url(Media/Header.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.buttons{
+    text-align: center;
+    margin-top: 45%;
+}
+.buttons a{
+    padding: 10%;
+}
+.btns{
+    height: 55px;
+    background: #fefff8;
+    border: 0;
+    border-radius: 5px;
+    color: #2c3329;
+    font-weight: bold;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    padding: 0px 20px;
+
+}
+.btns:hover{
+    background: #2c3329;
+    color: #fefff8;
+}
 </style>
 </head>
 <body>
-    <div class="header"> 
-        <nav>
-            <ul>
-                <li><a href="Home.html">Home</a></li>
-                <li><a href="About.html">About Us</a></li>
-                <li>
-                <form>
-                    <div class="search">
-                        <span class="search-icon material-symbols-outlined">search</span>
-                        <input class="search-input" type="search" placeholder="Search">
-                    </div>
-                </form>
-                </li>
-                <li><a href="Contacts.html">Contacts</a></li>
-                <li>Your Account <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#353e26"><path d="M480-360 280-560h400L480-360Z"/></svg>
-                    <ul class="dropdown">
-                        <li><a class="DpDn" href="Login.html">Log In</a></li>
-                        <li><a class="DpDn" href="Signup.html">Sign Up</a></li>
-                    </ul>
-                </li>
-              </ul>
-        </nav>
-    </div>
-
+<div class="buttons">
+    <a href="Login.html"> <button class="btns">Login</button></a></li>
+    <a href="Signup.html"> <button class="btns">Sign Up</button></a>
+</div>
     
 </body>

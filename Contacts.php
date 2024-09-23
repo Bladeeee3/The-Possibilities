@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <title>Contacts</title>
+<link rel="stylesheet" href="Library.css">
+<style>
+body{
+    background-image: url(Media/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+    <div class="header"> 
+        <nav>
+            <ul>
+                <li><a href="Home.php">Home</a></li>
+                <li><a href="About.php">About Us</a></li>
+                <li>
+                <form>
+                    <div class="search">
+                        <span class="search-icon material-symbols-outlined">search</span>
+                        <input class="search-input" type="search" placeholder="Search">
+                    </div>
+                </form>
+                </li>
+                <li><a href="Contacts.php">Contacts</a></li>
+                <li>Your Account <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#353e26"><path d="M480-360 280-560h400L480-360Z"/></svg>
+                    <ul class="dropdown">
+                        <li><a class="DpDn" href="Welcome.html">Log Out</a></li>
+                    </ul>
+                </li>
+              </ul>
+        </nav>
+    </div>
+
+    
+</body>

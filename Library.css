@@ -195,3 +195,9 @@ nav ul li a.DpDn:hover{
 .links{
     text-align: center;
 }
+.message{
+    text-align: center;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    color: red;
+}

@@ -59,7 +59,7 @@ body{
             <br>
             <br>
             <header>Sign Up</header>
-            <p>Welcome, Lasallians! Create your account and Sign up here.</p>
+            <p>Welcome, Lasallian! Create your account and Sign up here.</p>
             <br>
             <br>
             <form action="" method="post">
@@ -81,6 +81,7 @@ body{
                 <div class="links">
                     Already have an account? <a href="Login.php">Login</a> here.
                 </div>
+                <br><br>
             </form>
         </div>
     </div>

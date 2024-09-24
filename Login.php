@@ -56,7 +56,7 @@ session_start();
             <br>
             <br>
             <header>Login</header>
-            <p>Welcome back, Lasallians! Please Login to your account.</p>
+            <p>Welcome back, Lasallian! Please Login to your account.</p>
             <br>
             <br>
             <form action="" method="post">
@@ -77,6 +77,7 @@ session_start();
                 <div class="links">
                     Don't have an account? <a href="Signup.php">Sign Up</a> here.
                 </div>
+                <br><br>
             </form>
         </div>
     </div>

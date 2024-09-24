@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang= "en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,44 +9,49 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
     <title>Welcome</title>
-<link rel="stylesheet" href="Library.css">
-<style>
-body{
-    background-image: url(Media/1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.buttons{
-    position: relative;
-    text-align: center;
-    margin-top: 40%;
-}
-.buttons a{
-    padding: 5%;
-}
-.btns{
-    height: 55px;
-    background: #fefff8;
-    border: 0;
-    border-radius: 5px;
-    color: #2c3329;
-    font-weight: bold;
-    font-size: 30px;
-    cursor: pointer;
-    transition: all 0.3s;
-    padding: 0px 20px;
-
-}
-.btns:hover{
-    background: #2c3329;
-    color: #fefff8;
-}
-</style>
+    <link rel="stylesheet" href="Library.css">
+    <style>
+        body {
+            background-image: url(Media/1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .buttons {
+            display: flex;
+            align-items: center; /* Align items vertically centered */
+            justify-content: center; /* Center horizontally */
+            margin-top: 40%; /* Space from the top */
+        }
+        .buttons a {
+            margin: 0 10px; /* Space between buttons and heading */
+        }
+        .btns {
+            height: 55px;
+            background: #fefff8;
+            border: 0;
+            border-radius: 5px;
+            color: #2c3329;
+            font-weight: bold;
+            font-size: 30px;
+            cursor: pointer;
+            transition: all 0.3s;
+            padding: 0 20px; /* Horizontal padding */
+        }
+        .btns:hover {
+            background: #2c3329;
+            color: #fefff8;
+        }
+        h1 {
+            margin: 0 20px; /* Space between the buttons */
+            font-size: 30px; /* Same font size as buttons for consistency */
+        }
+    </style>
 </head>
 <body>
-<div class="buttons">
-    <a href="Login.php"> <button class="btns">Login</button></a></li>
-    <a href="Signup.php"> <button class="btns">Sign Up</button></a>
-</div>
-    
+    <div class="buttons">
+        <a href="Login.php"><button class="btns">Login</button></a>
+        <h1>or</h1>
+        <a href="Signup.php"><button class="btns">Sign Up</button></a>
+    </div>
 </body>
+</html>

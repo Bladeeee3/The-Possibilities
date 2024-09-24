@@ -76,6 +76,7 @@
         </div>
     </section>
     <div class="card-body">
+    <h2>RESEARCH LIBRARY</h2>
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -106,7 +107,7 @@
                                     <td class="title"><?= $items['title']; ?></td>
                                     <td class="author"><?= $items['author']; ?></td>
                                     <td class="strand"><?= $items['strand']; ?></td>
-                                    <td class="source"><a href="<?= $items['source']; ?>">Link</a></td>
+                                    <td class="source"><a href="<?= $items['source']; ?>" target="_blank">Link</a></td>
                                 </tr>
                                 <?php
                             }
